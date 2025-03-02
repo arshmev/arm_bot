@@ -1,0 +1,17 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rishabh/Desktop/arm_robot/install/arm_bot/lib/python3.10/site-packages",
+        "/home/rishabh/projects/ros2_ws/build/my_robot_controller",
+        "/home/rishabh/projects/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rishabh/Desktop/arm_robot/install/arm_bot/lib/python3.10/site-packages",
+        "/home/rishabh/projects/ros2_ws/build/my_robot_controller",
+        "/home/rishabh/projects/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/ubuntu/arm_ws/src/arm_bot"
+}

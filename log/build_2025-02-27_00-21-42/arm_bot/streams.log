@@ -1,0 +1,41 @@
+[0.039s] Invoking command in '/home/ubuntu/arm_ws/build/arm_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot -- -j12 -l12
+[0.125s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.701s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.728s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.993s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.109s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.110s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.124s] -- Added test 'lint_cmake' to check CMake code style
+[1.131s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.193s] -- Added test 'xmllint' to check XML markup files
+[1.196s] -- Configuring done (1.1s)
+[1.210s] -- Generating done (0.0s)
+[1.216s] -- Build files have been written to: /home/ubuntu/arm_ws/build/arm_bot
+[1.296s] Invoked command in '/home/ubuntu/arm_ws/build/arm_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot -- -j12 -l12
+[1.299s] Invoking command in '/home/ubuntu/arm_ws/build/arm_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot
+[1.328s] -- Install configuration: ""
+[1.329s] -- Execute custom install script
+[1.330s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/config/empty.yaml
+[1.331s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/arm_gazebo.xacro
+[1.331s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/arm_ros2_control.xacro
+[1.332s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/robot.urdf.xacro
+[1.332s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/robot1.urdf
+[1.333s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/launch/gazebo.launch.py
+[1.334s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/launch/rsp.launch.py
+[1.334s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/worlds/empty.world
+[1.335s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/ament_index/resource_index/package_run_dependencies/arm_bot
+[1.336s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/ament_index/resource_index/parent_prefix_path/arm_bot
+[1.336s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/environment/ament_prefix_path.sh
+[1.337s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/environment/ament_prefix_path.dsv
+[1.337s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/environment/path.sh
+[1.338s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/environment/path.dsv
+[1.339s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/local_setup.bash
+[1.339s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/local_setup.sh
+[1.340s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/local_setup.zsh
+[1.340s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/local_setup.dsv
+[1.341s] -- Symlinking: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.dsv
+[1.375s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/ament_index/resource_index/packages/arm_bot
+[1.376s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/cmake/arm_botConfig.cmake
+[1.376s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/cmake/arm_botConfig-version.cmake
+[1.377s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.xml
+[1.384s] Invoked command in '/home/ubuntu/arm_ws/build/arm_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot
