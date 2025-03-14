@@ -1,0 +1,201 @@
+[0.420s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.420s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x754080f49340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x754080f48620>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x754080f48620>>, mixin_verb=('build',))
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.546s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/arm_ws'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot) by extension 'ros'
+[0.642s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_bot' with type 'ros.ament_cmake' and name 'arm_bot'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_bot_controller) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_bot_controller' with type 'ros.ament_cmake' and name 'arm_bot_controller'
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.724s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ubuntu/arm_ws/install
+[0.730s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 426 installed packages in /opt/ros/jazzy
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'cmake_target' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'arm_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.887s] DEBUG:colcon.colcon_core.verb:Building package 'arm_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/arm_ws/build/arm_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/arm_ws/install/arm_bot', 'merge_install': False, 'path': '/home/ubuntu/arm_ws/src/arm_bot', 'symlink_install': False, 'test_result_base': None}
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'cmake_args' from command line to 'None'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'cmake_target' from command line to 'None'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'arm_bot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.888s] DEBUG:colcon.colcon_core.verb:Building package 'arm_bot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/arm_ws/build/arm_bot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/arm_ws/install/arm_bot_controller', 'merge_install': False, 'path': '/home/ubuntu/arm_ws/src/arm_bot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.888s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/arm_ws/src/arm_bot' with build type 'ament_cmake'
+[0.891s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/arm_ws/src/arm_bot'
+[0.898s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.898s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.898s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.911s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/arm_ws/src/arm_bot_controller' with build type 'ament_cmake'
+[0.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/arm_ws/src/arm_bot_controller'
+[0.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/arm_ws/build/arm_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot -- -j12 -l12
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/arm_ws/build/arm_bot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot_controller -- -j12 -l12
+[1.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/arm_ws/build/arm_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot -- -j12 -l12
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/arm_ws/build/arm_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot
+[1.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/arm_ws/build/arm_bot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot_controller -- -j12 -l12
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/arm_ws/build/arm_bot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot_controller
+[1.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_bot_controller)
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/arm_ws/build/arm_bot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot_controller
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller' for CMake module files
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller' for CMake config files
+[1.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_bot_controller', 'cmake_prefix_path')
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/hook/cmake_prefix_path.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/hook/cmake_prefix_path.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/hook/cmake_prefix_path.sh'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller/bin'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller/lib/pkgconfig/arm_bot_controller.pc'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller/lib/python3.12/site-packages'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller/bin'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.sh'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.bash'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.zsh'
+[1.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/arm_ws/install/arm_bot_controller/share/colcon-core/packages/arm_bot_controller)
+[1.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_bot_controller)
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller' for CMake module files
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller' for CMake config files
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_bot_controller', 'cmake_prefix_path')
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/hook/cmake_prefix_path.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/hook/cmake_prefix_path.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/hook/cmake_prefix_path.sh'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller/bin'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller/lib/pkgconfig/arm_bot_controller.pc'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller/lib/python3.12/site-packages'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot_controller/bin'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.dsv'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.sh'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.bash'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.zsh'
+[1.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/arm_ws/install/arm_bot_controller/share/colcon-core/packages/arm_bot_controller)
+[1.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_bot)
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot' for CMake module files
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/arm_ws/build/arm_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot' for CMake config files
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_bot', 'cmake_prefix_path')
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/hook/cmake_prefix_path.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/hook/cmake_prefix_path.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/hook/cmake_prefix_path.sh'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot/bin'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot/lib/pkgconfig/arm_bot.pc'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot/lib/python3.12/site-packages'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot/bin'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.ps1'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.dsv'
+[1.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.sh'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.bash'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.zsh'
+[1.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/arm_ws/install/arm_bot/share/colcon-core/packages/arm_bot)
+[1.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_bot)
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot' for CMake module files
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot' for CMake config files
+[1.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_bot', 'cmake_prefix_path')
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/hook/cmake_prefix_path.ps1'
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/hook/cmake_prefix_path.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/hook/cmake_prefix_path.sh'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot/bin'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot/lib/pkgconfig/arm_bot.pc'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot/lib/python3.12/site-packages'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/arm_ws/install/arm_bot/bin'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.sh'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.bash'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/package.zsh'
+[1.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/arm_ws/install/arm_bot/share/colcon-core/packages/arm_bot)
+[1.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.252s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.252s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.267s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.301s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/arm_ws/install/local_setup.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/arm_ws/install/_local_setup_util_ps1.py'
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/arm_ws/install/setup.ps1'
+[1.309s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/arm_ws/install/local_setup.sh'
+[1.310s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/arm_ws/install/_local_setup_util_sh.py'
+[1.311s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/arm_ws/install/setup.sh'
+[1.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/arm_ws/install/local_setup.bash'
+[1.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/arm_ws/install/setup.bash'
+[1.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/arm_ws/install/local_setup.zsh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/arm_ws/install/setup.zsh'

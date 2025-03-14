@@ -1,0 +1,22 @@
+[0.194s] Invoking command in '/home/ubuntu/arm_ws/build/arm_bot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot_controller -- -j12 -l12
+[2.333s] Invoked command in '/home/ubuntu/arm_ws/build/arm_bot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot_controller -- -j12 -l12
+[2.391s] Invoking command in '/home/ubuntu/arm_ws/build/arm_bot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot_controller
+[2.453s] -- Install configuration: ""
+[2.475s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/config
+[2.476s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/config/arm_bot_controllers.yml
+[2.476s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/ament_index/resource_index/package_run_dependencies/arm_bot_controller
+[2.476s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/ament_index/resource_index/parent_prefix_path/arm_bot_controller
+[2.477s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/environment/ament_prefix_path.sh
+[2.477s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/environment/ament_prefix_path.dsv
+[2.477s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/environment/path.sh
+[2.477s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/environment/path.dsv
+[2.477s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/local_setup.bash
+[2.478s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/local_setup.sh
+[2.478s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/local_setup.zsh
+[2.478s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/local_setup.dsv
+[2.478s] -- Installing: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.dsv
+[2.518s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/ament_index/resource_index/packages/arm_bot_controller
+[2.519s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/cmake/arm_bot_controllerConfig.cmake
+[2.519s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/cmake/arm_bot_controllerConfig-version.cmake
+[2.519s] -- Up-to-date: /home/ubuntu/arm_ws/install/arm_bot_controller/share/arm_bot_controller/package.xml
+[2.524s] Invoked command in '/home/ubuntu/arm_ws/build/arm_bot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot_controller
