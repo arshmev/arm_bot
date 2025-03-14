@@ -1,0 +1,21 @@
+[0.014s] Invoking command in '/home/ubuntu/arm_ws/build/arm_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot -- -j12 -l12
+[0.070s] Invoked command in '/home/ubuntu/arm_ws/build/arm_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/arm_ws/build/arm_bot -- -j12 -l12
+[0.084s] Invoking command in '/home/ubuntu/arm_ws/build/arm_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot
+[0.095s] -- Install configuration: ""
+[0.095s] -- Execute custom install script
+[0.096s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/config/empty.yaml
+[0.096s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/arm_gazebo.xacro
+[0.097s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/arm_ros2_control.xacro
+[0.097s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/robot.urdf.xacro
+[0.097s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/robot1.urdf
+[0.098s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/launch/gazebo.launch.py
+[0.098s] -- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/launch/rsp.launch.py
+[0.098s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.098s]   ament_cmake_symlink_install_directory() can't find
+[0.098s]   '/home/ubuntu/arm_ws/src/arm_bot/worlds'
+[0.099s] Call Stack (most recent call first):
+[0.099s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.099s]   cmake_install.cmake:46 (include)
+[0.099s] 
+[0.100s] [0m
+[0.100s] Invoked command in '/home/ubuntu/arm_ws/build/arm_bot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/arm_ws/build/arm_bot

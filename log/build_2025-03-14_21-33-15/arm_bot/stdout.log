@@ -1,0 +1,9 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/config/empty.yaml
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/arm_gazebo.xacro
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/arm_ros2_control.xacro
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/robot1.urdf
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/launch/rsp.launch.py

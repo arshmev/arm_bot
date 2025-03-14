@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/config/empty.yaml
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/arm_gazebo.xacro
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/arm_ros2_control.xacro
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/description/robot1.urdf
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/ubuntu/arm_ws/install/arm_bot/share/arm_bot/launch/rsp.launch.py
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/ubuntu/arm_ws/src/arm_bot/worlds'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m
